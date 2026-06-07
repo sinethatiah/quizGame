@@ -74,7 +74,7 @@ def start_quiz():
                         
                 score +=1
             else:
-                print("oops, wrong answer") 
+                print("oops, wrong answer\n") 
             i +=1         
     if score< 5:
         print (f"your score is {score}")
