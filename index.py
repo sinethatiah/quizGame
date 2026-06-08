@@ -76,15 +76,15 @@ def start_quiz():
             else:
                 print("oops, wrong answer\n") 
             i +=1         
-    if score< 5:
-        print (f"your score is {score}")
-        print("someone needs to study")
-    elif score<8:
-        print (f"your score is {score} ")
-        print("good attempt")
-    elif score >8:
-        print (f"your score is {score}")
-        print("Lets gooo, ur a rockstarrr")
+            if score< 5:
+                print (f"your score is {score}")
+                print("someone needs to study")
+            elif score<8:
+                print (f"your score is {score} ")
+                print("good attempt")
+            elif score >8:
+                print (f"your score is {score}")
+                print("Lets gooo, ur a rockstarrr")
 
 
 start_quiz()
